@@ -1,5 +1,8 @@
 import pygame, sys, time, random 
-#new pc = new problems. Like holy shit, i have to re do the pygame thing again
+#new pc = new problems. Like holy shit, i have to re do the pygame thing again 2/6/24
+#well, its on now baby! 4/6/24
+
+
 
 # Difficulty settings for nerds
 # Easy      ->  10
