@@ -187,12 +187,7 @@ def create_menu():
 
 if __name__ == "__main__":
     # Initialize Pygame (this part remains unchanged)
-    check_errors = pygame.init()
-    if check_errors[1] > 0:
-        print(f"[!] NotASnake crashed due to {check_errors[1]} errors when initialising game, cancelling start....")
-        sys.exit(-10)
-    else:
-        print("[+] NotASnake successfully initialized")
+  
     
     pygame.display.set_caption("NotASnake")
     #game_window = pygame.display.set_mode((dis_width, dis_height)) #moved to inside start_game()
