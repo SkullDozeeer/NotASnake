@@ -1,6 +1,6 @@
 # NotASnake                                    
 ## Yes, this is just Snake
-**Website:**notasnake.tilda.ws      
+[Official Website](https://notasnake.tilda.ws)   
 Game by Danil Panchuk, Russia
 
 
