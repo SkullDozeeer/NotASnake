@@ -171,22 +171,20 @@ def start_game():
 
 
 def create_menu():
-    """Creates the main menu using Tkinter."""
+   
     global root
     root = tk.Tk()
     root.title("NotASnake - Menu")
 
-    start_button = tk.Button(root, text="Start Game", command=start_game)
+    start_button = tk.Button(root, text="Start Game", command=start_game(), command=root.destroy)
     start_button.pack(pady=10)
 
-    exit_button = tk.Button(root, text="Exit", command=root.destroy)
+    exit_button = tk.Button(root, text="Exit", command=sys.exit(0))
     exit_button.pack(pady=10)
 
     root.mainloop()
 
 
-if __name__ == "__main__":
-    # Initialize Pygame (this part remains unchanged)
   
     
     pygame.display.set_caption("NotASnake")
