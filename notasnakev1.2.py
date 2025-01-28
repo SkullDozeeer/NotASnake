@@ -2,7 +2,7 @@ import pygame, sys, time, random
 
 
 
-# Difficulty settings for nerds
+# Difficulty settings for nerds, gamers and Dark Souls players
 # Easy      ->  10
 # Medium    ->  25
 # Hard      ->  40
@@ -52,7 +52,7 @@ direction = 'RIGHT'
 change_to = direction
 
 score = 0
-
+# hehe, you can tamper with this to cheat in scores, which is funny, but it aint :/
 
 
 def game_over():
@@ -114,8 +114,8 @@ while True:
         direction = 'LEFT'
     if change_to == 'RIGHT' and direction != 'LEFT':
         direction = 'RIGHT'
-
-    
+#That abomination of a code above me handles snake movement
+#   
     if direction == 'UP':
         snake_pos[1] -= 10
     if direction == 'DOWN':
@@ -137,8 +137,9 @@ while True:
     if not food_spawn:
         food_pos = [random.randrange(1, (dis_width//10)) * 10, random.randrange(1, (dis_height//10)) * 10]
     food_spawn = True
+   
+# double checking to make sure food appears properly
 
-    
     game_window.fill(black)
     for pos in snake_body:
         
@@ -162,3 +163,4 @@ while True:
     pygame.display.update()
     
     fps_controller.tick(difficulty)
+# making a difficulty setting possible to affect shit
