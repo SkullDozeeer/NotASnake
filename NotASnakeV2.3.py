@@ -1,13 +1,13 @@
 import pygame, sys, time, random # type: ignore
 
-# Difficulty settings
+
 difficulty = 25
 
-# Display dimensions
+
 dis_width = 1366
 dis_height = 768
 
-# Initialize Pygame
+
 check_errors = pygame.init()
 if check_errors[1] > 0:
     print(f"[!] NotASnake crashed due to {check_errors[1]} errors, cancelling start....")
@@ -15,21 +15,21 @@ if check_errors[1] > 0:
 else:
     print("[+] NotASnake succesfully initialized")
 
-# Game window
+
 pygame.display.set_caption("NotASnake")
 game_window = pygame.display.set_mode((dis_width, dis_height))
 
-# Colors
+
 black = pygame.Color(0, 0, 0)
 white = pygame.Color(255, 255, 255)
 red = pygame.Color(255, 0, 0)
 green = pygame.Color(0, 255, 0)
 blue = pygame.Color(0, 0, 255)
 
-# FPS controller
+
 fps_controller = pygame.time.Clock()
 
-# Game functions
+
 def reset_game():
     global snake_pos, snake_body, food_pos, food_spawn, direction, change_to, score
     snake_pos = [100, 50]
@@ -53,19 +53,19 @@ def show_score(choice, color, font, size):
         score_rect.center = (dis_width//2, dis_height//1.25)
     game_window.blit(score_surface, score_rect)
 
-# Menu functions
+
 def pause_menu():
     menu_font = pygame.font.SysFont("times new roman", 72)
     
     while True:
-        # Create semi-transparent overlay
+        
         overlay = pygame.Surface((dis_width, dis_height), pygame.SRCALPHA)
         overlay.fill((0, 0, 0, 128))
         game_window.blit(overlay, (0, 0))
         
         mouse_pos = pygame.mouse.get_pos()
 
-        # Menu items
+
         title_surface = menu_font.render("Paused", True, white)
         title_rect = title_surface.get_rect(center=(dis_width//2, dis_height//2 - 100))
         game_window.blit(title_surface, title_rect)
@@ -75,7 +75,7 @@ def pause_menu():
         quit_text = menu_font.render("Quit", True, white)
         quit_rect = quit_text.get_rect(center=(dis_width//2, dis_height//2 + 100))
 
-        # Hover effects
+        
         if resume_rect.collidepoint(mouse_pos):
             resume_text = menu_font.render("Resume", True, green)
         if quit_rect.collidepoint(mouse_pos):
@@ -84,7 +84,7 @@ def pause_menu():
         game_window.blit(resume_text, resume_rect)
         game_window.blit(quit_text, quit_rect)
 
-        # Event handling
+  
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit()
@@ -187,11 +187,11 @@ def main_menu():
 
         pygame.display.update()
 
-# Initialize game variables
+
 reset_game()
 main_menu()
 
-# Main game loop
+
 while True:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
@@ -211,7 +211,6 @@ while True:
                     pygame.quit()
                     sys.exit()
 
-    # Validate direction change
     if change_to == "UP" and direction != "DOWN":
         direction = "UP"
     if change_to == "DOWN" and direction != "UP":
@@ -221,7 +220,6 @@ while True:
     if change_to == "RIGHT" and direction != "LEFT":
         direction = "RIGHT"
 
-    # Move snake
     if direction == "UP":
         snake_pos[1] -= 10
     if direction == "DOWN":
@@ -231,7 +229,7 @@ while True:
     if direction == "RIGHT":
         snake_pos[0] += 10
 
-    # Snake body mechanism
+    
     snake_body.insert(0, list(snake_pos))
     if snake_pos[0] == food_pos[0] and snake_pos[1] == food_pos[1]:
         score += 1
@@ -239,7 +237,7 @@ while True:
     else:
         snake_body.pop()
 
-    # Food spawn
+    
     if not food_spawn:
         food_pos = [
             random.randrange(1, (dis_width//10)) * 10,
@@ -247,13 +245,13 @@ while True:
         ]
     food_spawn = True
 
-    # Graphics
+    
     game_window.fill(black)
     for pos in snake_body:
         pygame.draw.rect(game_window, green, pygame.Rect(pos[0], pos[1], 10, 10))
     pygame.draw.rect(game_window, white, pygame.Rect(food_pos[0], food_pos[1], 10, 10))
 
-    # Game over conditions
+    
     game_over = False
     if snake_pos[0] < 0 or snake_pos[0] > dis_width-10:
         game_over = True
@@ -271,9 +269,9 @@ while True:
             pygame.quit()
             sys.exit()
 
-    # Score display
+   
     show_score(1, white, "consolas", 20)
 
-    # Refresh game screen
+   
     pygame.display.update()
     fps_controller.tick(difficulty)
