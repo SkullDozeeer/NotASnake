@@ -3,7 +3,8 @@
 [Official Website](https://notasnake.tilda.ws)   
 Game by Danil Panchuk, Russia
 
-
+### Credits
+PIXXEL - https://github.com/P1XXX4L , game icon art
 
 ##  PSA on Versions:
 Versions 1.2.1 and under were only py files, loaded by having to launch them directly with lots of struggles. if somebody wants to compile them into .exe for availability, go for it, but dont expect me to do it (MAKE A PULL)    
