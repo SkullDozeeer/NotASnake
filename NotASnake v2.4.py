@@ -236,7 +236,7 @@ while True:
     else:
         snake_body.pop()
 
-    # Fixed food spawning logic
+  
     if not food_spawn:
         food_pos = spawn_food()
         food_spawn = True
