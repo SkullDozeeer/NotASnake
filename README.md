@@ -1,7 +1,7 @@
 # NotASnake                                    
 ## Yes, this is just Snake
 [Official Website](https://notasnake.tilda.ws)   
-
+  
 [Closed Beta Test Registration](https://notasnake.tilda.ws/closedbeta)
 Game by Danil Panchuk, Russia
 
