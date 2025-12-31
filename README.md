@@ -1,6 +1,6 @@
 # NotASnake                                    
 ## Yes, this is just Snake, and you affect it
-To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas!
+To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas!  
 [Official Website](https://notasnake.tilda.ws)   
 [Closed Beta Test Registration](https://notasnake.tilda.ws/closedbeta)  
 Game by Danil Panchuk, Russia
