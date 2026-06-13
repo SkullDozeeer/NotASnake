@@ -3,6 +3,7 @@
 To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas!  
 [Official Website](https://notasnake.tilda.ws)   
 [Closed Beta Test Registration](https://notasnake.tilda.ws/closedbeta)  
+Now soon to be at skulldozeeer.itch.io/notasnake
 Game by Danil Panchuk, Russia
 
 ### Credits
