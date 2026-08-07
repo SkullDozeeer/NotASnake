@@ -1,16 +1,17 @@
 # NotASnake                                    
-## Yes, this is just Snake, and you affect it
+## Yes, this is just Snake. The good type.
 To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas!  
-[Official Website](https://notasnake.tilda.ws)   
+[Official Website](https://notasnake.tilda.ws) (defunct) or [this one](notasnake.tb.ru)   
 [Closed Beta Test Registration](https://notasnake.tilda.ws/closedbeta)  
-Now soon to be at skulldozeeer.itch.io/notasnake
+Now also available at [Itch.io](skulldozeeer.itch.io/notasnake)
+
 Game by Danil Panchuk, Russia
 
 ### Credits
 PIXXEL - https://github.com/P1XXX4L , game icon art, music
 ##  PSA on Versions:
 Order of updates:
-v1.0 - v1.1 - v1.2 - v1.2.1 - v1.3 (TheBigOne) - v2.0 - v2.1/2.2 - v2.3 - v2.4 - v2.5 - v2.6 - v3.0 - v3.1 - 3.2 - 3.3 ---
+v1.0 - v1.1 - v1.2 - v1.2.1 - v1.3 (TheBigOne) - v2.0 - v2.1/2.2 - v2.3 - v2.4 - v2.5 - v2.6 - v3.0 - v3.1 - 3.2 - 3.3 - 3.3.1 - 3.4 - 3.5---
 
 Versions 1.2.1 and under were only py files, loaded by having to launch them directly with lots of struggles. if somebody wants to compile them into .exe for availability, go for it, but dont expect me to do it (MAKE A PULL)    
 since v1.3 (The Big One) there are and source files AND .exe for debugging? dont just download the exe`s though - they dont include the libraries to play  
