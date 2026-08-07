@@ -1,6 +1,6 @@
 # NotASnake Test Suite
-
-## Overview
+## Made with Mistral.Ai Code functionality
+## Overview 
 
 This directory contains automated and manual tests for the NotASnake game.
 
