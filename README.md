@@ -21,30 +21,23 @@ Important note: you should not unpack the .rar of the game in Program Files/Wind
 
 IF you compile an old version and make a pull request, please write me or something...
 
-## Screenshots - version 3.1
-### Overview of files
-<img width="676" height="282" alt="image" src="https://github.com/user-attachments/assets/2dc89ffa-4654-4826-82b5-c9303e5b7549" />
+## Screenshots - version 3.5.2 Closed Beta Images
 
+<img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/7d484541-b997-4763-ade9-73d41fbf5ec8" />
 
-### Main menu
-<img width="1364" height="796" alt="image" src="https://github.com/user-attachments/assets/21b189d3-d312-4779-b5cd-d13aa08a7d8a" />
+<img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/d3e562a6-1b3b-40f6-b57e-905a9c2c69de" />
 
+<img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/24d3debf-9878-4cf9-83fb-fb7c4bab6679" />
 
-### Main menu - Light mode
-<img width="1363" height="796" alt="image" src="https://github.com/user-attachments/assets/44d0bbf7-9958-4cd2-92ce-7a66ea70e900" />
+<img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/bade5523-de4e-43d4-afdb-53c8937f5be1" />
 
+<img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/e4f05796-6186-4071-a7d5-c84e927c8c36" />
 
-### Main menu with settings open
-<img width="1363" height="793" alt="image" src="https://github.com/user-attachments/assets/7a881840-bbe7-4565-94eb-6f1b671d64d4" />
+<img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/c64140fe-b04e-4a8d-a640-4c5297ea125f" />
 
+<img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/97896a8b-a1a5-46d7-b412-4ff072496c9a" />
 
-### Gameplay - Hardcore mode, 50% Grid opacity
-<img width="1363" height="796" alt="image" src="https://github.com/user-attachments/assets/65ee5e5b-28d6-4a9d-9560-c5f539b8fcfc" />
-
-
-### Gameplay - Light mode
-<img width="1363" height="796" alt="image" src="https://github.com/user-attachments/assets/dc52b094-3d8d-41c4-87f9-861b7a98ab72" />
-
+<img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/df20902a-ba48-4312-aa0b-ad651eb99de3" />
 
 
 ## License
