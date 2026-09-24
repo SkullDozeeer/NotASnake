@@ -1,7 +1,7 @@
 # NotASnake                                    
-## Yes, this is just Snake. The good type.
+## Yes, this is just Snake. The good, niche type.
 To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas!  
-[Official Website](https://notasnake.tilda.ws) (defunct) or [this one](notasnake.tb.ru)   
+[Official Website](https://notasnake.tilda.ws) (recently updated) or [this one](notasnake.tb.ru)   
 [Closed Beta Test Registration](https://notasnake.tilda.ws/closedbeta)  
 Now also available at [Itch.io](skulldozeeer.itch.io/notasnake)
 
@@ -13,10 +13,11 @@ Oh, and very important note! With Physical Edition v1 out... most of the game ve
 PIXXEL - https://github.com/P1XXX4L , game icon art, music
 ##  PSA on Versions:
 Order of updates:
-v1.0 - v1.1 - v1.2 - v1.2.1 - v1.3 (TheBigOne) - v2.0 - v2.1/2.2 - v2.3 - v2.4 - v2.5 - v2.6 - v3.0 - v3.1 - 3.2 - 3.3 - 3.3.1 - 3.4 - 3.5 - 3.5.1 - PhysicalV1
+v1.0 - v1.1 - v1.2 - v1.2.1 - v1.3 (TheBigOne) - v2.0 - v2.1/2.2 - v2.3 - v2.4 - v2.5 - v2.6 - v3.0 - v3.1 - 3.2 - 3.3 - 3.3.1 - 3.4 - 3.5 - 3.5.1 - PhysicalV1 - 3.5.2-pr1
 
 Versions 1.2.1 and under were only py files, loaded by having to launch them directly with lots of struggles. if somebody wants to compile them into .exe for availability, go for it, but dont expect me to do it (MAKE A PULL)    
-since v1.3 (The Big One) there are and source files AND .exe for debugging? dont just download the exe`s though - they dont include the libraries to play  
+
+Important note: you should not unpack the .rar of the game in Program Files/Windows circa v3.0, due to NotASnake's .exe file trying to write debug logs to Windows-important directories, where it cannot write due to not having the right permissions. So the game shits itself and crashes. Desktop and any other directories should work absolutely ok.
 
 IF you compile an old version and make a pull request, please write me or something...
 
