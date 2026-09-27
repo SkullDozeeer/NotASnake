@@ -4,13 +4,46 @@ To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas
 [Official Website](https://notasnake.tilda.ws) (recently updated) or [this one](notasnake.tb.ru)   
 [Closed Beta Test Registration](https://notasnake.tilda.ws/closedbeta)  
 Now also available at [Itch.io](skulldozeeer.itch.io/notasnake)
-
+---
 Game by Danil Panchuk, Russia
+---
+# Important disclosures - The No-Tracking rule
+NotASnake, not at it's latest build, not at v1.0, ever collects or uses telemetry, analytics, advertising ID's or remote tracking.
+
+The game **DOES NOT** send nor sell any gameplay data, player-earned statistics, achievements, crash reports or identifiable System Information to me - the developer - or any third-party.
+## NotASnake does not collect:
+- IP addresses
+- Windows versions, build numbers
+- Any sort of Hardware information
+- Device/Machine ID's
+- Any sort of username or account identifiers
+- Gameplay, achievement telemetry
+- Usage statistics
+- Advertising ID's
+- Crash reports
+
+Here is what actually being stored, *locally*
+
+NotASnake (as of 3.5.2-p-r1) keeps some info on your PC, that is not required for gameplay. That includes to gameplay statistics (Stats menu), high scores (Stats and SP Mode Select), achievements (`achievements.py` and `save.txt`), settings (`save.txt`), tutorial status (`save.txt`) and other releveant game progress.
+
+All above mentioned files are stored locally on your machine in the game's `/nasassets/` directory. These files are never shared anywhere, not automatically, and not by the game.
+
+NotASnake also creates local debug logs (`babysitter_notes_xxxxxx...`) for troubleshooting. These contain (as of 3.5.2-p-r1) timestamps, game/debug events, crash information, file paths and Python-related tracebacks. Again, these logs remain on your computer and are not automatically sent to anyone, unless done by the user.
+
+### No "phone home"
+
+There is no hidden telemetry endpoint, analytics software or background reporting system to the internet in NotASnake
+
+If, at ANY point in time there becomess a genuine online option for gameplay, that collects any sort of data, it will be documented thoroughly for full transparency.
+
+So, your saves are yours to keep. And Stats. And your NotASnake copy. Nobody ain't calling no one. Thanks for reading.
+
+---
 
 Oh, and very important note! With Physical Edition v1 out... most of the game versions are broken! That is because I had no choice but to use my old laptop, having to re-import all python pips. And the setup.py I used for 90% of the versions i forgot to include 'import pygame'. oops! V2 will be out soon.
-
+---
 ### Credits
-PIXXEL - https://github.com/P1XXX4L , game icon art, music
+PIXXEL - https://github.com/P1XXX4L , game icon art, music, and a beta tester! motasnake.tilda.ws/theshoutout
 ##  PSA on Versions:
 Order of updates:
 v1.0 - v1.1 - v1.2 - v1.2.1 - v1.3 (TheBigOne) - v2.0 - v2.1/2.2 - v2.3 - v2.4 - v2.5 - v2.6 - v3.0 - v3.1 - 3.2 - 3.3 - 3.3.1 - 3.4 - 3.5 - 3.5.1 - PhysicalV1 - 3.5.2-pr1
@@ -20,7 +53,7 @@ Versions 1.2.1 and under were only py files, loaded by having to launch them dir
 Important note: you should not unpack the .rar of the game in Program Files/Windows circa v3.0, due to NotASnake's .exe file trying to write debug logs to Windows-important directories, where it cannot write due to not having the right permissions. So the game shits itself and crashes. Desktop and any other directories should work absolutely ok.
 
 IF you compile an old version and make a pull request, please write me or something...
-
+---
 ## Screenshots - version 3.5.2 Closed Beta Images
 
 <img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/7d484541-b997-4763-ade9-73d41fbf5ec8" />
@@ -39,7 +72,7 @@ IF you compile an old version and make a pull request, please write me or someth
 
 <img width="1363" height="794" alt="image" src="https://github.com/user-attachments/assets/df20902a-ba48-4312-aa0b-ad651eb99de3" />
 
-
+---
 ## License
 This project is licensed under the **GNU General Public License v3.0**.
 See the [LICENSE](LICENSE) file for the full text.  
