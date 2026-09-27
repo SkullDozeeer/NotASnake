@@ -8,9 +8,9 @@ Now also available at [Itch.io](skulldozeeer.itch.io/notasnake)
 Game by Danil Panchuk, Russia
 ---
 # Important disclosures - The No-Tracking rule
-NotASnake, not at it's latest build, not at v1.0, ever collects or uses telemetry, analytics, advertising ID's or remote tracking.
+NotASnake, neither in its latest build nor, to my knowledge, in v1.0 or earlier releases uses telemetry, analytics, advertising ID's or remote tracking.
 
-The game **DOES NOT** send nor sell any gameplay data, player-earned statistics, achievements, crash reports or identifiable System Information to me - the developer - or any third-party.
+The game **DOES NOT** send nor sell any gameplay data, player-earned statistics, achievements, crash reports or system Information to me - the developer - or any third-party.
 ## NotASnake does not collect:
 - IP addresses
 - Windows versions, build numbers
@@ -22,19 +22,19 @@ The game **DOES NOT** send nor sell any gameplay data, player-earned statistics,
 - Advertising ID's
 - Crash reports
 
-Here is what actually being stored, *locally*
+Here is what is actually being stored, *locally*
 
-NotASnake (as of 3.5.2-p-r1) keeps some info on your PC, that is not required for gameplay. That includes to gameplay statistics (Stats menu), high scores (Stats and SP Mode Select), achievements (`achievements.py` and `save.txt`), settings (`save.txt`), tutorial status (`save.txt`) and other releveant game progress.
+NotASnake (as of 3.5.2-p-r1) keeps some information locally so that features such as statistics, achievements, settings and tutorial progress can persist across your game. That includes to gameplay statistics (Stats menu), high scores (Stats and SP Mode Select), achievements (`save.txt`), settings (`save.txt`), tutorial status (`save.txt`) and other relevant game progress.
 
-All above mentioned files are stored locally on your machine in the game's `/nasassets/` directory. These files are never shared anywhere, not automatically, and not by the game.
+All  of the above-mentioned files with the data are stored locally on your machine in the game's `/nasassets/` directory. These files are never shared anywhere, not automatically, and not by the game.
 
-NotASnake also creates local debug logs (`babysitter_notes_xxxxxx...`) for troubleshooting. These contain (as of 3.5.2-p-r1) timestamps, game/debug events, crash information, file paths and Python-related tracebacks. Again, these logs remain on your computer and are not automatically sent to anyone, unless done by the user.
+NotASnake also creates local debug logs (`babysitter_notes_xxxxxx...`) for troubleshooting. These contain (as of 3.5.2-p-r1) timestamps, game/debug events, crash information, file paths and Python-related tracebacks. Again, these logs remain on your computer and are not automatically sent to anyone, unless the user deliberately chooses to share them.
 
 ### No "phone home"
 
 There is no hidden telemetry endpoint, analytics software or background reporting system to the internet in NotASnake
 
-If, at ANY point in time there becomess a genuine online option for gameplay, that collects any sort of data, it will be documented thoroughly for full transparency.
+If, at ANY point in time a genuine online gameplay option is added, that collects any sort of data, it will be documented thoroughly for full transparency.
 
 So, your saves are yours to keep. And Stats. And your NotASnake copy. Nobody ain't calling no one. Thanks for reading.
 
