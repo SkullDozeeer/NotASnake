@@ -3,7 +3,7 @@
 To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas!  
 [Official Website](https://notasnake.tilda.ws) (recently updated) or [this one](https://notasnake.tb.ru)   
 [Closed Beta Test Registration](https://notasnake.tilda.ws/closedbeta)  
-Now also available at [Itch.io](https://skulldozeeer.itch.io/notasnake)
+Now also available at [Itch.io](https://skulldozeeer.itch.io/notasnake)  
 A fankit is now available at [Proton Drive](https://drive.proton.me/urls/BDHRXX79KC#Cz7Zo5nbOLM1)
 ---
 Game by Danil Panchuk, Russia
