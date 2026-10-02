@@ -44,7 +44,7 @@ So, your saves are yours to keep. And Stats. And your NotASnake copy. Nobody ain
 Oh, and very important note! With Physical Edition v1 out... most of the game versions are broken! That is because I had no choice but to use my old laptop, having to re-import all python pips. And the setup.py I used for 90% of the versions i forgot to include 'import pygame'. oops! V2 will be out soon.
 ---
 ### Credits
-PIXXEL - https://github.com/P1XXX4L , game icon art, music, and a beta tester! motasnake.tilda.ws/theshoutout
+PIXXEL - https://github.com/P1XXX4L , game icon art, music, and a beta tester! [All shout-outs](notasnake.tilda.ws/theshoutout)
 ##  PSA on Versions:
 Order of updates:
 v1.0 - v1.1 - v1.2 - v1.2.1 - v1.3 (TheBigOne) - v2.0 - v2.1/2.2 - v2.3 - v2.4 - v2.5 - v2.6 - v3.0 - v3.1 - 3.2 - 3.3 - 3.3.1 - 3.4 - 3.5 - 3.5.1 - PhysicalV1 - 3.5.2-pr1
