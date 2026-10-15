@@ -6,6 +6,43 @@ To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas
 Now also available at [Itch.io](skulldozeeer.itch.io/notasnake)
 
 Game by Danil Panchuk, Russia
+# Privacy & No-Tracking
+
+
+**NotASnake does not use telemetry, analytics, advertising, or remote tracking.**
+
+The game does **not** send gameplay data, statistics, achievements, crash reports, or system information to the developer or to any third-party service.
+
+NotASnake does not collect or transmit:
+
+- IP addresses
+- Windows versions or build numbers
+- CPU, GPU, RAM, or other hardware information
+- device or machine identifiers
+- usernames or account identifiers
+- gameplay telemetry
+- achievement telemetry
+- usage statistics
+- advertising identifiers
+- crash reports
+
+### What NotASnake stores locally
+
+NotASnake does keep some information **on your own computer** so that its features work. This includes gameplay statistics, high scores, achievements, selected settings, tutorial status, and other game progress.
+
+These files are stored locally in the game's `nasassets` directory. They are never automatically uploaded anywhere by NotASnake.
+
+NotASnake also creates local debug logs for troubleshooting. These can contain timestamps, game/debug events, crash information, file paths - which may include your Windows username - again, only to be found if debug log itself is shared, and Python tracebacks. These logs remain on your computer and are not automatically sent to anyone.
+
+### No "phone home"
+
+There is no hidden telemetry endpoint, analytics service, or background reporting system in NotASnake.
+
+There is no equivalent of secretly sending the developer your OS build number, hardware configuration, or gameplay statistics.
+
+If NotASnake ever gains an online feature that requires collecting data, that feature will be explicitly documented rather than silently added.
+
+**Your save file is yours. Your statistics are yours. NotASnake does not phone home.**
 
 Oh, and very important note! With Physical Edition v1 out... most of the game versions are broken! That is because I had no choice but to use my old laptop, having to re-import all python pips. And the setup.py I used for 90% of the versions i forgot to include 'import pygame'. oops! V2 will be out soon.
 
