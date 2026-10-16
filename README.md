@@ -13,7 +13,7 @@ This is a quickie on how to compile the game in any versions having a source fil
 Basic requirements:
  - A Windows 11/10 PC. Linux works fine if you `venv` your way on it.
  - Have Python 3.12 or 3.11 installed. With it, install pygame-ce and cx_Freeze (optional for compiling.)
-(P.S. - this way you can play PhysicalV1, the broken one, by launchingthe sources inside. you're very welcome)
+(P.S. - this way you can play PhysicalV1, the broken one, by launching the sources inside. you're very welcome)
 
 All of that alone should allow you to play the video game only using source code, which you can download above. If you want to compile it though...
 1. Make a setup.py for the source file. self-explanatory. I use cx_Freeze, but anything works, really. don't trust the setup.py in Code, I'm not sure how up-to-date it is.
