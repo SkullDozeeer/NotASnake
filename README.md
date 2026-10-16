@@ -6,6 +6,19 @@ To do so, write to [this email](silverballermicro47@hotmail.com) with your ideas
 Now also available at [Itch.io](skulldozeeer.itch.io/notasnake)
 
 Game by Danil Panchuk, Russia
+
+How to NotASnake - Source code thing
+This is a quickie on how to compile the game in any versions having a source file.
+
+Basic requirements:
+ - A Windows 11/10 PC. Linux works fine if you `venv` your way on it.
+ - Have Python 3.12 or 3.11 installed. With it, install pygame-ce and cx_Freeze (optional for compiling.)
+(P.S. - this way you can play PhysicalV1, the broken one, by launchingthe sources inside. you're very welcome)
+
+All of that alone should allow you to play the video game only using source code, which you can download above. If you want to compile it though...
+1. Make a setup.py for the source file. self-explanatory. I use cx_Freeze, but anything works, really. don't trust the setup.py in Code, I'm not sure how up-to-date it is.
+2. `python setup.py build`. Yup. have a /build folder with the game!
+fin.
 # Privacy & No-Tracking
 
 
